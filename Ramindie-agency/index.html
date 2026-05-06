@@ -1,0 +1,1019 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ramindie Digital Studio | Web Design & Development</title>
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- Bootstrap Icons CDN -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    
+   <link rel="icon" href="/images/Ramindie-logo.png" sizes="any">
+<link rel="icon" type="image/png" sizes="32x32" href="/images/Ramindie-logo.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/images/Ramindie-logo.png">
+<link rel="apple-touch-icon" href="/images/Ramindie-logo.png">
+
+
+</head>
+<body>
+
+    <!-- Overlay for Mobile Menu -->
+    <div class="menu-overlay" id="menu-overlay"></div>
+
+    <!-- Header Navigation -->
+    <header id="header">
+        <div class="container nav-container">
+            <a href="#" class="logo">Ramindie<span>.</span></a>
+            
+            <nav>
+                <ul class="nav-links" id="nav-links">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#process">Process</a></li>
+                    <li><a href="#pricing">Pricing</a></li>
+                    <li><a href="#portfolio">Works</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#cta" class="btn btn-primary" style="display: none;" id="mobile-cta">Book Consultation</a></li>
+                </ul>
+            </nav>
+
+            <a href="#cta" class="btn btn-primary header-cta">Book Consultation</a>
+            
+            <button class="mobile-menu-btn" id="mobile-menu-btn">
+                <i class="bi bi-list"></i>
+            </button>
+        </div>
+    </header>
+
+    <!-- Hero Section (Section 1: White) -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="hero-grid">
+                <div class="hero-content reveal">
+                    <span class="hero-subtitle">Independent development. Strategic design. Real results.</span>
+                    <h1>Building Professional Websites for Growing Philippine Businesses.</h1>
+                    <p style="font-size: 1.25rem; color: var(--text-body);">Ramindie Digital Studio helps service-based businesses establish a strong and credible online presence through clean, high-converting websites built with purpose.</p>
+                    <div class="hero-buttons">
+                        <a href="#pricing" class="btn btn-outline">View Pricing</a>
+                        <a href="#cta" class="btn btn-primary">Book a Free Consultation</a>
+                    </div>
+                </div>
+                
+                <div class="hero-visual reveal" style="transition-delay: 0.2s;">
+                    <div class="hero-image-wrapper">
+                        <div class="hero-image-box">
+                            <!-- Placeholder image tailored for a web design agency context -->
+                            <img src="images/WorkView.png" alt="Professional Web Design Portfolio Mockup">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Core Principles Section -->
+    <section class="section bg-white" style="padding-top: 4rem; padding-bottom: 4rem;">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto 4rem auto;">
+                <h2 style="text-transform: uppercase; font-weight: 800; font-size: 2rem; letter-spacing: 1px;">Core Principles</h2>
+                <p style="font-size: 1.1rem; color: var(--text-body);">The foundation behind every project.</p>
+            </div>
+            
+            <div class="principles-list">
+                <!-- Principle 1 -->
+                <div class="principle-item reveal">
+                    <div class="principle-number">01</div>
+                    <h3>Structure</h3>
+                    <p>Organized layouts and logical architecture designed for clarity and scalability.</p>
+                </div>
+                
+                <!-- Principle 2 -->
+                <div class="principle-item reveal" style="transition-delay: 0.1s;">
+                    <div class="principle-number">02</div>
+                    <h3>Simplicity</h3>
+                    <p>Clean interfaces focused on usability and performance without unnecessary complexity.</p>
+                </div>
+                
+                <!-- Principle 3 -->
+                <div class="principle-item reveal" style="transition-delay: 0.2s;">
+                    <div class="principle-number">03</div>
+                    <h3>Reliability</h3>
+                    <p>Secure hosting, ongoing maintenance, and dependable long-term support.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section (Section 2: Light Gray) -->
+    <section id="services" class="section bg-light">
+        <div class="container">
+            <div class="reveal">
+                <h2>What We Do</h2>
+                <p style="max-width: 600px; font-size: 1.1rem;">We specialize in creating digital foundations that help your business look established, earn trust, and attract real customers.</p>
+            </div>
+            
+            <div class="services-grid">
+                <!-- Service 1 -->
+                <div class="service-card reveal">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-window-desktop"></i>
+                    </div>
+                    <h3>Professional Website Design</h3>
+                    <p>Clean, responsive, and strategically structured websites tailored specifically for service-based businesses.</p>
+                </div>
+                
+                <!-- Service 2 -->
+                <div class="service-card reveal" style="transition-delay: 0.1s;">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-arrow-clockwise"></i>
+                    </div>
+                    <h3>Website Redesign</h3>
+                    <p>Modernize outdated websites and transform them into high-performing digital assets that generate leads.</p>
+                </div>
+                
+                <!-- Service 3 -->
+                <div class="service-card reveal" style="transition-delay: 0.2s;">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-shield-check"></i>
+                    </div>
+                    <h3>Maintenance & Hosting</h3>
+                    <p>Reliable ongoing technical support, fast hosting, and security to keep your website running smoothly.</p>
+                </div>
+                
+                <!-- Service 4 -->
+                <div class="service-card reveal" style="transition-delay: 0.3s;">
+                    <div class="service-icon-wrapper">
+                        <i class="bi bi-layout-text-window-reverse"></i>
+                    </div>
+                    <h3>Landing Pages</h3>
+                    <p>Highly targeted, conversion-focused single pages designed specifically to generate inquiries and project leads.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section (Section 3: White) -->
+    <section id="process" class="section bg-white">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h2 style="text-transform: uppercase; font-weight: 800; font-size: 2rem; letter-spacing: 1px;">Our Process</h2>
+                <p style="font-size: 1.1rem; color: var(--text-body);">A clear, structured approach from idea to launch.</p>
+            </div>
+            
+            <div class="process-container">
+                <!-- Step 01 -->
+                <div class="process-card reveal" data-step="01">
+                    <div class="process-content">
+                        <div class="process-icon-wrapper anim-group-scan">
+                            <svg viewBox="0 0 24 24">
+                                <circle cx="11" cy="11" r="8" class="svg-navy"></circle>
+                                <line x1="21" y1="21" x2="16.65" y2="16.65" class="svg-navy"></line>
+                                <circle cx="11" cy="11" r="4" class="svg-orange svg-scan-target" stroke-dasharray="2 4"></circle>
+                            </svg>
+                        </div>
+                        <h3>Consultation</h3>
+                        <p>We discuss your business goals, target audience, and website requirements to ensure clarity before starting.</p>
+                    </div>
+                </div>
+                <!-- Step 02 -->
+                <div class="process-card reveal" data-step="02" style="transition-delay: 0.1s;">
+                    <div class="process-content">
+                        <div class="process-icon-wrapper anim-group-float">
+                            <svg viewBox="0 0 24 24">
+                                <rect x="3" y="3" width="18" height="18" rx="2" class="svg-navy"></rect>
+                                <path d="M3 9h18" class="svg-navy"></path>
+                                <path d="M9 21V9" class="svg-orange"></path>
+                                <rect x="13" y="13" width="4" height="4" class="svg-orange" fill="var(--orange)" fill-opacity="0.2"></rect>
+                            </svg>
+                        </div>
+                        <h3>Planning & Structure</h3>
+                        <p>A clear site structure and content layout are prepared to create a logical and user-friendly experience.</p>
+                    </div>
+                </div>
+                <!-- Step 03 -->
+                <div class="process-card reveal" data-step="03" style="transition-delay: 0.2s;">
+                    <div class="process-content">
+                        <div class="process-icon-wrapper anim-group-code">
+                            <svg viewBox="0 0 24 24">
+                                <polyline points="16 18 22 12 16 6" class="svg-navy"></polyline>
+                                <polyline points="8 6 2 12 8 18" class="svg-navy"></polyline>
+                                <line x1="14" y1="4" x2="10" y2="20" class="svg-orange svg-code-line"></line>
+                            </svg>
+                        </div>
+                        <h3>Design & Development</h3>
+                        <p>Your website is carefully designed and developed with responsiveness, performance, and usability in mind.</p>
+                    </div>
+                </div>
+                <!-- Step 04 -->
+                <div class="process-card reveal" data-step="04" style="transition-delay: 0.3s;">
+                    <div class="process-content">
+                        <div class="process-icon-wrapper anim-group-check">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M16 4h2a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H6a2 2 0 0 1-2-2V6a2 2 0 0 1 2-2h2" class="svg-navy"></path>
+                                <rect x="8" y="2" width="8" height="4" rx="1" ry="1" class="svg-navy"></rect>
+                                <path d="M9 14l2 2 4-4" class="svg-orange svg-check-mark"></path>
+                            </svg>
+                        </div>
+                        <h3>Review & Revisions</h3>
+                        <p>You review the website and request revisions to refine content and layout before final approval.</p>
+                    </div>
+                </div>
+                <!-- Step 05 -->
+                <div class="process-card reveal" data-step="05" style="transition-delay: 0.4s;">
+                    <div class="process-content">
+                        <div class="process-icon-wrapper anim-group-rocket">
+                            <svg viewBox="0 0 24 24">
+                                <path d="M4.5 16.5c-1.5 1.26-2 5-2 5s3.74-.5 5-2c.71-.84.7-2.13-.09-2.91a2.18 2.18 0 0 0-2.91-.09z" class="svg-orange svg-flame"></path>
+                                <path d="m12 15-3-3a22 22 0 0 1 2-3.95A12.88 12.88 0 0 1 22 2c0 2.72-.78 7.5-6 11a22.35 22.35 0 0 1-4 2z" class="svg-navy" fill="var(--white)"></path>
+                                <path d="M9 12H4s.55-3.03 2-4c1.62-1.08 5 0 5 0" class="svg-navy"></path>
+                                <path d="M12 15v5s3.03-.55 4-2c1.08-1.62 0-5 0-5" class="svg-navy"></path>
+                            </svg>
+                        </div>
+                        <h3>Launch & Support</h3>
+                        <p>Once approved, the website is launched and monitored. Ongoing hosting or support options are available based on your chosen plan.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Pricing Section (Section 4: Light Gray) -->
+    <section id="pricing" class="section bg-light">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h2>Clear pricing, no surprises.</h2>
+                <p>Transparent pricing categorized by the specific type of project your business needs.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Basic / Category 1 -->
+                <div class="pricing-card reveal">
+                    <h3>Professional Starter Website</h3>
+                    <p>A clean, professional website to establish your small business online.</p>
+                    <div class="price" style="font-size: 2.25rem;">
+                        <span style="font-size: 0.9rem; display: block; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; color: var(--text-muted);">Starting at</span>
+                        ₱8,000<span>+</span>
+                        <span style="font-size: 0.9rem; display: block; font-weight: 500; color: var(--text-muted); text-transform: none; letter-spacing: normal; margin-top: 0.5rem;">(one-time project)</span>
+                    </div>
+                    <a href="#cta" class="btn btn-outline" style="width: 100%;">Get a Quote</a>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check2"></i> <span>Up to 5 structured pages or sections — single-page or multi-page layout based on your needs</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Mobile-responsive design</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Contact form setup (email-based)</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Messenger chat button for direct client communication</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Google Maps embed</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Basic on-page SEO (meta tags & keywords)</span></li>
+                        <li><i class="bi bi-check2"></i> <span>SSL certificate & performance optimization</span></li>
+                        <li><i class="bi bi-check2"></i> <span>2 rounds of content or design revisions included</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Hosting included (1 month free)</span></li>
+                    </ul>
+                    <div style="text-align: left; padding-top: 1rem; border-top: 1px solid var(--gray-border);">
+                        <p style="font-size: 0.9rem; font-weight: 700; color: var(--navy); margin-bottom: 0.5rem;">Optional Add-on:</p>
+                        <p style="font-size: 0.85rem; color: var(--text-body); margin-bottom: 1rem;"><i class="bi bi-plus-circle" style="color: var(--orange); margin-right: 0.4rem;"></i>Custom domain name registration (e.g., yourbusiness.com) available upon request</p>
+                    </div>
+                    <p style="font-size: 0.8rem; text-align: left; color: var(--text-muted); line-height: 1.4; border-top: 1px solid var(--gray-border); padding-top: 1rem; margin-top: 0; margin-bottom: 0;">*Website layout and features will be customized based on your business needs.</p>
+                </div>
+
+                <!-- Professional / Category 2 (Highlighted) -->
+                <div class="pricing-card popular reveal" style="transition-delay: 0.1s;">
+                    <div class="popular-badge">Most Popular</div>
+                    <h3>Growth-Focused Business Website</h3>
+                    <p>A multi-page website designed to boost credibility and attract more clients.</p>
+                    <div class="price" style="font-size: 2.25rem;">
+                        <span style="font-size: 0.9rem; display: block; font-weight: 600; text-transform: uppercase; letter-spacing: 1px; margin-bottom: 0.5rem; color: #94A3B8;">Starting at</span>
+                        ₱15,000<span>+</span>
+                        <span style="font-size: 0.9rem; display: block; font-weight: 500; color: #94A3B8; text-transform: none; letter-spacing: normal; margin-top: 0.5rem;">(one-time project)</span>
+                    </div>
+                    <a href="#cta" class="btn btn-primary" style="width: 100%;">Get a Quote</a>
+                    <ul class="pricing-features">
+                        <li><i class="bi bi-check2"></i> <span>5–7 pages tailored to your business needs</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Conversion-focused layout</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Contact form & Messenger chat</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Google Analytics setup & Google Maps embed</span></li>
+                        <li><i class="bi bi-check2"></i> <span>SSL certificate & performance optimization</span></li>
+                        <li><i class="bi bi-check2"></i> <span>3 rounds of content or design revisions included</span></li>
+                        <li><i class="bi bi-check2"></i> <span>Hosting included (1 month free)</span></li>
+                    </ul>
+                    <div style="text-align: left; padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                        <p style="font-size: 0.9rem; font-weight: 700; color: var(--white); margin-bottom: 0.5rem;">Optional Add-on:</p>
+                        <p style="font-size: 0.85rem; color: #94A3B8; margin-bottom: 1rem;"><i class="bi bi-plus-circle" style="color: var(--orange); margin-right: 0.4rem;"></i>Custom domain name registration (e.g., yourbusiness.com) available upon request</p>
+                    </div>
+                    <p style="font-size: 0.8rem; text-align: left; color: #94A3B8; line-height: 1.4; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 1rem; margin-top: 0; margin-bottom: 0;">*Website layout and features will be customized based on your business needs.</p>
+                </div>
+            </div>
+
+            <!-- Pricing Disclaimer -->
+            <div class="reveal" style="text-align: center; margin-top: 3rem; color: var(--text-muted); font-size: 0.95rem;">
+                <p style="margin-bottom: 0.5rem;"><em>* Final pricing depends on scope and complexity.</em></p>
+                <p style="margin-bottom: 0;">We recommend <a href="#cta" style="color: var(--orange); font-weight: 600; text-decoration: underline;">booking a consultation</a> to receive an accurate quotation.</p>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- Choose Your Website Setup Section -->
+    <section id="setup" class="section bg-white">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto;">
+                <h2 style="text-transform: uppercase; font-weight: 800; font-size: 2rem; letter-spacing: 1px;">Choose Your Website Setup</h2>
+                <p style="font-size: 1.1rem; color: var(--text-body);">Website Plans tailored to your ownership and support needs.</p>
+            </div>
+
+            <div class="pricing-grid">
+                <!-- Plan 1 -->
+                <div class="pricing-card reveal">
+                    <h3>Plan 1 — Project Website <br><span style="font-size: 1rem; color: var(--text-muted); font-weight: 500; display: block; margin-top: 0.25rem;">(Build & Transfer)</span></h3>
+                    <p style="margin-bottom: 0.5rem;">Best for businesses that want full ownership and control.</p>
+                    <div class="price" style="font-size: 1.85rem;">One-Time Payment</div>
+                    <a href="#cta" class="btn btn-outline" style="width: 100%;">Get a Quote</a>
+                    
+                    <div style="text-align: left; margin-top: 2.5rem; flex-grow: 1;">
+                        <h4 style="font-size: 1rem; color: var(--navy); margin-bottom: 1rem;">Includes:</h4>
+                        <ul class="pricing-features" style="margin-top: 0; padding-top: 0; border-top: none;">
+                            <li><i class="bi bi-check2"></i> <span>Custom website design</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Up to 3–4 structured pages or sections</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Mobile-responsive layout</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Contact form & Messenger chat</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Google Maps integration</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Basic on-page SEO</span></li>
+                            <li><i class="bi bi-check2"></i> <span>SSL security</span></li>
+                            <li><i class="bi bi-check2"></i> <span>2 rounds of revisions</span></li>
+                            <li><i class="bi bi-check2"></i> <span>1 Month Free Hosting <br><em style="font-size: 0.85rem; color: var(--text-muted);">(for testing & adjustments)</em></span></li>
+                        </ul>
+                    </div>
+
+                    <div style="text-align: left; padding: 1.25rem; background-color: var(--gray-light); border: 1px solid var(--gray-border); border-radius: var(--radius-sm); margin-top: 1.5rem;">
+                        <h4 style="font-size: 0.95rem; color: var(--navy); margin-bottom: 0.5rem;">After 30 days:</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; color: var(--text-body); margin-bottom: 0;">
+                            <li style="margin-bottom: 0.5rem; display: flex;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Client may migrate to their own hosting</li>
+                            <li style="margin-bottom: 0.5rem; display: flex;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Or subscribe to Managed Plan</li>
+                            <li style="display: flex;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Website will be removed from our server if no hosting plan is chosen</li>
+                        </ul>
+                    </div>
+
+                    <div style="text-align: left; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid var(--gray-border);">
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--navy); margin-bottom: 0.5rem; display: flex; align-items: center;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.75rem;"></i> You own the website files after full payment</p>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--navy); margin-bottom: 0.5rem; display: flex; align-items: center;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.75rem;"></i> No monthly obligation</p>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--text-muted); margin-bottom: 0; display: flex; align-items: center;"><i class="bi bi-info-circle-fill" style="margin-right: 0.75rem;"></i> Higher upfront cost</p>
+                    </div>
+                </div>
+
+                <!-- Plan 2 -->
+                <div class="pricing-card popular reveal" style="transition-delay: 0.1s;">
+                    <div class="popular-badge">Recommended</div>
+                    <h3>Plan 2 — Managed Website <br><span style="font-size: 1rem; color: #94A3B8; font-weight: 500; display: block; margin-top: 0.25rem;">(Build, Host & Maintain)</span></h3>
+                    <p style="margin-bottom: 0.5rem;">Best for businesses that want zero technical handling.</p>
+                    <div class="price" style="font-size: 2.25rem;">
+                        ₱350<span>/mo</span>
+                    </div>
+                    <a href="#cta" class="btn btn-primary" style="width: 100%;">Get Started</a>
+                    
+                    <div style="text-align: left; margin-top: 2.5rem; flex-grow: 1;">
+                        <h4 style="font-size: 1rem; color: var(--white); margin-bottom: 1rem;">Includes:</h4>
+                        <ul class="pricing-features" style="margin-top: 0; padding-top: 0; border-top: none;">
+                            <li><i class="bi bi-check2"></i> <span>Website design & development</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Hosting under our management</span></li>
+                            <li><i class="bi bi-check2"></i> <span>SSL certificate</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Deployment & DNS configuration</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Uptime monitoring</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Monthly backup (while active)</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Minor content support</span></li>
+                            <li><i class="bi bi-check2"></i> <span>Branded subdomain (e.g., yourbusiness.ramindie.asia)</span></li>
+                        </ul>
+                        <p style="font-size: 0.85rem; color: #94A3B8; margin-top: 1rem; margin-bottom: 0; display: flex; align-items: flex-start;"><i class="bi bi-info-circle" style="color: var(--orange); margin-right: 0.5rem; margin-top: 0.15rem;"></i> <span>A custom domain (e.g., yourbusiness.com) is recommended for stronger branding and can be connected anytime.</span></p>
+                    </div>
+
+                    <div style="text-align: left; margin-top: 1.5rem;">
+                        <h4 style="font-size: 0.95rem; color: #F87171; margin-bottom: 0.75rem; display: flex; align-items: center;"><i class="bi bi-x-circle-fill" style="margin-right: 0.5rem;"></i> What is NOT Included:</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; color: #94A3B8; margin-bottom: 0;">
+                            <li style="margin-bottom: 0.5rem; display: flex;"><span style="color: #F87171; margin-right: 0.5rem;">•</span> Major redesigns</li>
+                            <li style="margin-bottom: 0.5rem; display: flex;"><span style="color: #F87171; margin-right: 0.5rem;">•</span> New pages or features</li>
+                            <li style="display: flex;"><span style="color: #F87171; margin-right: 0.5rem;">•</span> Structural/layout changes</li>
+                        </ul>
+                    </div>
+
+                    <div style="text-align: left; padding: 1.25rem; background-color: rgba(255,255,255,0.05); border: 1px solid rgba(255,255,255,0.1); border-radius: var(--radius-sm); margin-top: 1.5rem;">
+                        <h4 style="font-size: 0.95rem; color: var(--white); margin-bottom: 0.5rem;">If subscription stops:</h4>
+                        <ul style="list-style: none; padding: 0; font-size: 0.85rem; color: #94A3B8; margin-bottom: 0;">
+                            <li style="margin-bottom: 0.5rem; display: flex;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Website will be taken offline</li>
+                            <li style="display: flex;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Files may be requested before removal</li>
+                        </ul>
+                    </div>
+
+                    <div style="text-align: left; margin-top: 1.5rem; padding-top: 1.5rem; border-top: 1px solid rgba(255,255,255,0.1);">
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 0.5rem; display: flex; align-items: center;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.75rem;"></i> Lower upfront cost</p>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 0.5rem; display: flex; align-items: center;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.75rem;"></i> Ongoing technical support</p>
+                        <p style="font-size: 0.95rem; font-weight: 600; color: var(--white); margin-bottom: 0; display: flex; align-items: center;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.75rem;"></i> No need to manage hosting yourself</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Selected Works Section -->
+    <section id="portfolio" class="section bg-navy" style="padding-top: 5rem; padding-bottom: 6rem;">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 700px; margin: 0 auto 3.5rem auto;">
+                <h2 style="color: var(--white); text-transform: uppercase; font-weight: 800; font-size: 2rem; letter-spacing: 1px;">Selected Works</h2>
+                <p style="font-size: 1.1rem; color: #94A3B8; margin-bottom: 0.5rem;">Concept websites crafted to showcase design direction, structure, and functionality for service-based businesses.</p>
+                <p style="font-size: 0.95rem; color: rgba(148, 163, 184, 0.8);">Each project is deployed using branded subdomains under <strong>ramindie.asia</strong> for demonstration purposes.</p>
+            </div>
+
+            <div class="portfolio-carousel reveal" style="transition-delay: 0.2s;">
+                <button class="carousel-nav-btn carousel-prev" id="carouselPrev" aria-label="Previous Project"><i class="bi bi-chevron-left"></i></button>
+                
+                <div class="carousel-track-wrapper">
+                    <div class="carousel-track" id="carouselTrack">
+                        <!-- Project 1 -->
+                        <div class="carousel-card">
+                            <div class="carousel-image-wrapper">
+                                <img src="images/MasterCircuit.JPG" alt="Electrical Contractor Website Design">
+                            </div>
+                            <div class="carousel-info">
+                                <h3>MASTERCIRCUIT Electrical Services</h3>
+                                <p>MasterCircuit Electric is a Cavite-based electrical contractor delivering reliable, code-compliant solutions for homes, businesses, and institutions. From structured wiring and panel upgrades to solar and smart system integration, every project is handled by licensed and qualified electricians committed to safety, precision, and long-term performance.</p>
+                                <a href="https://mastercircuit.ramindie.asia/" class="portfolio-link-text" aria-label="View Project">View Project <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                        
+                        <!-- Project 2 -->
+                        <div class="carousel-card">
+                            <div class="carousel-image-wrapper">
+                                <img src="images/SARILANE.JPG" alt="Convenience store website design">
+                            </div>
+                            <div class="carousel-info">
+                                <h3>SARILANE Grocery</h3>
+                                <p>Sari Lane is a neighborhood convenience store concept built to make everyday essentials more accessible, affordable, and closer to Filipino communities. By focusing on practical store locations, efficient operations, and a carefully selected range of daily goods, Sari Lane aims to provide a reliable and convenient shopping experience. </p>
+                                <a href="https://sarilanegrocery.ramindie.asia/" class="portfolio-link-text" aria-label="View Project">View Project <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Project 3 -->
+                        <div class="carousel-card">
+                            <div class="carousel-image-wrapper">
+                                <img src="images/IRONPULSE.JPG" alt="gym Website Design">
+                            </div>
+                            <div class="carousel-info">
+                                <h3>IRON PULSE Gym</h3>
+                                <p>IRONPULSE is a performance-focused gym concept built to help individuals develop strength, discipline, and overall fitness in a structured training environment. By offering specialized programs, certified coaching, and a well-equipped facility, IRONPULSE aims to provide a reliable and results-driven fitness experience for members of all levels.</p>
+                                <a href="https://ironpulsegym.ramindie.asia/" class="portfolio-link-text" aria-label="View Project">View Project <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+
+                        <!-- Project 4 -->
+                        <div class="carousel-card">
+                            <div class="carousel-image-wrapper">
+                                <img src="images/quantumworld.JPG" alt="Dedicated Server Website Design">
+                            </div>
+                            <div class="carousel-info">
+                                <h3>QUANTUM WORLD</h3>
+                                <p>QuantumWorld is a dedicated bare metal infrastructure concept built to make high-performance game servers more resilient, scalable, and accessible to developers and gaming communities worldwide. By focusing on enterprise-grade hardware, global network routing, and a carefully optimized range of performance profiles. </p>
+                                <a href="https://quantumworldlserver.ramindie.asia/" class="portfolio-link-text" aria-label="View Project">View Project <i class="bi bi-arrow-right"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <button class="carousel-nav-btn carousel-next" id="carouselNext" aria-label="Next Project"><i class="bi bi-chevron-right"></i></button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Essentials (Domain & Hosting Info) (Section: Light Gray) -->
+    <section id="essentials" class="section bg-light" style="padding-top: 4rem;">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
+                <h2>Hosting & Security <span style="color: var(--orange);">Managed by Ramindie</span></h2>
+                <p>To help you understand how your website works and what's included in our packages.</p>
+            </div>
+            
+            <div class="services-grid" style="margin-top: 0; grid-template-columns: repeat(auto-fit, minmax(min(100%, 300px), 1fr));">
+                <!-- Domain -->
+                <div class="service-card reveal" style="padding: 2.5rem 2rem;">
+                    <div class="service-icon-wrapper" style="width: 52px; height: 52px; margin-bottom: 1.5rem;">
+                        <i class="bi bi-globe" style="font-size: 1.5rem;"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem;">What is a Domain Name?</h3>
+                    <p style="font-size: 0.95rem;">A domain name is your website's address on the internet (e.g., <strong>yourbusiness.com</strong>). It's what customers type to find you.</p>
+                    <ul style="list-style: none; padding: 0; margin-top: 1rem; font-size: 0.9rem;">
+                        <li style="margin-bottom: 0.5rem;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.5rem;"></i> Makes your business look professional</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 0.5rem;"></i> Builds stronger branding</li>
+                        <li style="margin-bottom: 0.5rem;"><i class="bi bi-info-circle-fill" style="color: var(--text-muted); margin-right: 0.5rem;"></i> Optional but highly recommended</li>
+                    </ul>
+                    <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 1.5rem; margin-bottom: 0; border-top: 1px dashed var(--gray-border); padding-top: 1.5rem;">If you prefer not to purchase a domain, your website can still run using a co-named web address provided during deployment.</p>
+                </div>
+
+                <!-- Hosting -->
+                <div class="service-card reveal" style="transition-delay: 0.1s; padding: 2.5rem 2rem;">
+                    <div class="service-icon-wrapper" style="width: 52px; height: 52px; margin-bottom: 1.5rem;">
+                        <i class="bi bi-server" style="font-size: 1.5rem;"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem;">What is Hosting?</h3>
+                    <p style="font-size: 0.95rem;">Hosting is where your website files are stored so they can be accessed online 24/7. Think of it as the "space" your website lives in.</p>
+                    <div style="background-color: var(--gray-light); padding: 1rem; border-radius: var(--radius-sm); margin-top: auto; width: 100%;">
+                        <strong style="font-size: 0.9rem; color: var(--navy); display: block; margin-bottom: 0.5rem;">Included in both packages:</strong>
+                        <ul style="list-style: none; padding: 0; font-size: 0.9rem; margin-bottom: 0;">
+                            <li style="margin-bottom: 0.25rem;"><i class="bi bi-check2" style="color: var(--orange); margin-right: 0.5rem;"></i> Free Hosting included</li>
+                            <li style="margin-bottom: 0.25rem;"><i class="bi bi-check2" style="color: var(--orange); margin-right: 0.5rem;"></i> Basic security setup</li>
+                            <li><i class="bi bi-check2" style="color: var(--orange); margin-right: 0.5rem;"></i> Secure connection</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Security & SSL -->
+                <div class="service-card reveal" style="transition-delay: 0.2s; padding: 2.5rem 2rem;">
+                    <div class="service-icon-wrapper" style="width: 52px; height: 52px; margin-bottom: 1.5rem;">
+                        <i class="bi bi-shield-lock" style="font-size: 1.5rem;"></i>
+                    </div>
+                    <h3 style="font-size: 1.25rem;">Security & SSL</h3>
+                    <p style="font-size: 0.95rem;">SSL ensures that your website shows the secure "https" connection, protecting visitor information and making your business appear trustworthy.</p>
+                    <div style="margin-top: auto; display: flex; align-items: center; gap: 1rem; background-color: #ECFDF5; border: 1px solid #A7F3D0; padding: 1rem; border-radius: var(--radius-sm); width: 100%;">
+                        <i class="bi bi-lock-fill" style="color: #10B981; font-size: 1.5rem;"></i>
+                        <p style="margin: 0; font-size: 0.9rem; color: #065F46; font-weight: 500;">SSL setup is fully included in all of our website packages.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Performance Section (Section: White) -->
+    <section id="performance" class="section bg-white">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 800px; margin: 0 auto 3rem auto;">
+                <h2>Why Our Websites Are Built for <span style="color: var(--orange);">Performance</span></h2>
+                <p>We prioritize clean architecture to ensure your digital foundation is strong, secure, and always ready for your customers.</p>
+            </div>
+            
+            <div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 1.5rem;">
+                
+                <!-- Feature 1 -->
+                <div class="service-card reveal" style="padding: 1.5rem; display: flex; flex-direction: row; align-items: flex-start; gap: 1.25rem; height: auto;">
+                    <div style="background-color: #FFF7ED; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                        <i class="bi bi-lightning-charge-fill" style="color: var(--orange); font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Lightweight and fast loading</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 0; color: var(--text-body); line-height: 1.5;">Optimized code ensures your site loads instantly, keeping visitors engaged and improving SEO.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 2 -->
+                <div class="service-card reveal" style="transition-delay: 0.1s; padding: 1.5rem; display: flex; flex-direction: row; align-items: flex-start; gap: 1.25rem; height: auto;">
+                    <div style="background-color: #FFF7ED; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                        <i class="bi bi-shield-check" style="color: var(--orange); font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Lower security risks</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 0; color: var(--text-body); line-height: 1.5;">Built with modern, secure practices to protect your business and data from vulnerabilities.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 3 -->
+                <div class="service-card reveal" style="transition-delay: 0.2s; padding: 1.5rem; display: flex; flex-direction: row; align-items: flex-start; gap: 1.25rem; height: auto;">
+                    <div style="background-color: #FFF7ED; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                        <i class="bi bi-activity" style="color: var(--orange); font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Stable and reliable</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 0; color: var(--text-body); line-height: 1.5;">Engineered to perform consistently so your site is always up and running when clients need you.</p>
+                    </div>
+                </div>
+                
+                <!-- Feature 4 -->
+                <div class="service-card reveal" style="transition-delay: 0.3s; padding: 1.5rem; display: flex; flex-direction: row; align-items: flex-start; gap: 1.25rem; height: auto;">
+                    <div style="background-color: #FFF7ED; width: 48px; height: 48px; border-radius: 50%; display: flex; align-items: center; justify-content: center; flex-shrink: 0;">
+                        <i class="bi bi-tools" style="color: var(--orange); font-size: 1.5rem;"></i>
+                    </div>
+                    <div>
+                        <h3 style="font-size: 1.1rem; margin-bottom: 0.25rem;">Less maintenance issues</h3>
+                        <p style="font-size: 0.9rem; margin-bottom: 0; color: var(--text-body); line-height: 1.5;">Clean architecture means fewer bugs, seamless updates, and reduced long-term technical debt.</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Why We Don't Use Templates Section -->
+    <section class="section bg-light">
+        <div class="container">
+            <div class="split-grid" style="align-items: center;">
+                
+                <!-- Left: The Problem -->
+                <div class="reveal">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 1.5rem;">Why We <span style="color: var(--orange);">Don’t</span> Use Templates</h2>
+                    <p style="font-size: 1.15rem; color: var(--navy); font-weight: 500; line-height: 1.6; margin-bottom: 0;">
+                        Most websites today rely on pre-made templates that look good—but are slow, bloated, and built for everyone, instead of being tailored to your business and customers.
+                    </p>
+                </div>
+
+                <!-- Right: The Solution / Benefits -->
+                <div class="reveal" style="transition-delay: 0.2s;">
+                    <p style="font-size: 1.05rem; margin-bottom: 1.5rem; color: var(--text-body);">
+                        At Ramindie, every website is custom-coded from the ground up. That means:
+                    </p>
+                    
+                    <ul style="list-style: none; padding-left: 0; margin-bottom: 2rem;">
+                        <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; font-size: 1.05rem; color: var(--text-body);">
+                            <i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem; margin-top: 0.1rem;"></i> 
+                            <div><strong style="color: var(--navy);">Faster load times</strong> that keep visitors engaged</div>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; font-size: 1.05rem; color: var(--text-body);">
+                            <i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem; margin-top: 0.1rem;"></i> 
+                            <div><strong style="color: var(--navy);">A design tailored</strong> specifically to your business goals</div>
+                        </li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: flex-start; font-size: 1.05rem; color: var(--text-body);">
+                            <i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem; margin-top: 0.1rem;"></i> 
+                            <div><strong style="color: var(--navy);">Clean, scalable code</strong> for future upgrades and systems</div>
+                        </li>
+                        <li style="margin-bottom: 0; display: flex; align-items: flex-start; font-size: 1.05rem; color: var(--text-body);">
+                            <i class="bi bi-check-circle-fill" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem; margin-top: 0.1rem;"></i> 
+                            <div><strong style="color: var(--navy);">No unnecessary plugins</strong> or limitations</div>
+                        </li>
+                    </ul>
+
+                    <div style="background-color: var(--white); border-left: 4px solid var(--orange); padding: 1.5rem; border-radius: 0 var(--radius-md) var(--radius-md) 0; box-shadow: 0 4px 6px -1px rgba(0,0,0,0.05);">
+                        <p style="margin-bottom: 0; font-size: 1.1rem; color: var(--navy); font-weight: 700; font-style: italic;">
+                            "This isn’t just a website—it’s a long-term digital asset."
+                        </p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Who We Help & Why Us (Section 7: Navy) -->
+    <section id="about" class="section bg-navy">
+        <div class="container">
+            <div class="split-grid">
+                
+                <!-- Left: Who We Help -->
+                <div class="reveal">
+                    <span class="hero-subtitle" style="margin-bottom: 0.5rem;">Who We Help</span>
+                    <h2 style="margin-bottom: 1.5rem;">Built for Service-Based Businesses</h2>
+                    <p>If you rely on inquiries and project-based clients, we build websites that support your growth. We actively partner with:</p>
+                    
+                    <ul style="list-style: none; padding-left: 0; margin-top: 2rem; margin-bottom: 2rem;">
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.1rem; color: var(--white);"><i class="bi bi-building" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem;"></i> Construction companies</li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.1rem; color: var(--white);"><i class="bi bi-tools" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem;"></i> Skilled trades & contractors</li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.1rem; color: var(--white);"><i class="bi bi-truck" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem;"></i> Logistics & service providers</li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.1rem; color: var(--white);"><i class="bi bi-house-door" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem;"></i> Real estate</li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.1rem; color: var(--white);"><i class="bi bi-briefcase" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem;"></i> Small growing enterprises</li>
+                        <li style="margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.1rem; color: var(--white);"><i class="bi bi-plus-circle" style="color: var(--orange); margin-right: 1rem; font-size: 1.25rem;"></i> And more...</li>
+                    </ul>
+                </div>
+
+                <!-- Right: About & Why Us -->
+                <div class="reveal" style="transition-delay: 0.2s;">
+                    <span class="hero-subtitle" style="margin-bottom: 0.5rem;">The Studio</span>
+                    <h2 style="margin-bottom: 1.5rem; font-size: 2.25rem;">Strategic, not just aesthetic.</h2>
+                    <p style="margin-bottom: 1rem;"><strong>Ramindie Digital Studio</strong> is an independent web development studio focused on building structured, reliable, and purpose-driven websites for growing businesses.</p>
+                    <p style="margin-bottom: 1rem;">Founded by Abraham — “Ram” for short — Ramindie represents the combination of personal dedication and indie development. It reflects a hands-on, detail-oriented approach to crafting websites with clarity and intention.</p>
+                    <p>We believe that a website is not just an online presence — it is a digital foundation. Every project is built with structure, performance, and long-term usability in mind.</p>
+                    
+                    <div style="margin-top: 2rem; border-top: 1px solid rgba(255,255,255,0.1); padding-top: 2rem;">
+                        <div style="margin-bottom: 1.25rem;">
+                            <h4 style="color: var(--white); margin-bottom: 0.25rem; display: flex; align-items: center;"><i class="bi bi-person-workspace" style="color: var(--orange); margin-right: 0.75rem;"></i> Independent & hands-on</h4>
+                            <p style="margin-bottom: 0; font-size: 0.95rem; padding-left: 2rem;">Your website is crafted with attention to detail and personal oversight.</p>
+                        </div>
+                        <div style="margin-bottom: 1.25rem;">
+                            <h4 style="color: var(--white); margin-bottom: 0.25rem; display: flex; align-items: center;"><i class="bi bi-award" style="color: var(--orange); margin-right: 0.75rem;"></i> Built for credibility</h4>
+                            <p style="margin-bottom: 0; font-size: 0.95rem; padding-left: 2rem;">We help you look established, professional, and trustworthy online.</p>
+                        </div>
+                        <div>
+                            <h4 style="color: var(--white); margin-bottom: 0.25rem; display: flex; align-items: center;"><i class="bi bi-bullseye" style="color: var(--orange); margin-right: 0.75rem;"></i> Our goal is simple:</h4>
+                            <p style="margin-bottom: 0; font-size: 0.95rem; color: var(--white); font-weight: 500; padding-left: 2rem;">To help businesses establish a strong, professional presence online without unnecessary complexity.</p>
+                        </div>
+                        
+                        <!-- Client Communication Block -->
+                        <div style="margin-top: 2rem; padding: 1.5rem; background-color: rgba(255,255,255,0.03); border: 1px solid rgba(255,255,255,0.08); border-radius: var(--radius-md);">
+                            <h4 style="color: var(--white); margin-bottom: 1rem; display: flex; align-items: center; font-size: 1.05rem;"><i class="bi bi-chat-text" style="color: var(--orange); margin-right: 0.75rem;"></i> Client Communication</h4>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+                                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; font-size: 0.9rem; color: #94A3B8;"><i class="bi bi-check2" style="color: var(--orange); margin-right: 0.5rem; margin-top: 0.15rem;"></i> Available for inquiries daily</li>
+                                <li style="margin-bottom: 0.5rem; display: flex; align-items: flex-start; font-size: 0.9rem; color: #94A3B8;"><i class="bi bi-check2" style="color: var(--orange); margin-right: 0.5rem; margin-top: 0.15rem;"></i> Typical response time: 6–24 hours via Messenger or Email</li>
+                                <li style="display: flex; align-items: flex-start; font-size: 0.9rem; color: #94A3B8;"><i class="bi bi-check2" style="color: var(--orange); margin-right: 0.5rem; margin-top: 0.15rem;"></i> Scheduled meetings available by appointment</li>
+                            </ul>
+                            <p style="margin-bottom: 0; font-size: 0.9rem; color: var(--white); padding-top: 1rem; border-top: 1px solid rgba(255,255,255,0.1);">All messages are personally handled to ensure timely and reliable support.</p>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Frequently Asked Questions Section -->
+    <section id="faq" class="section bg-light">
+        <div class="container">
+            <div class="reveal" style="text-align: center; max-width: 600px; margin: 0 auto 3rem auto;">
+                <h2 style="text-transform: uppercase; font-weight: 800; font-size: 2rem; letter-spacing: 1px;">Frequently Asked Questions</h2>
+                <p style="font-size: 1.1rem; color: var(--text-body);">Everything you need to know about our web design process and packages.</p>
+            </div>
+
+            <div class="faq-container reveal" style="max-width: 800px; margin: 0 auto; transition-delay: 0.1s;">
+                <!-- FAQ 1 -->
+                <div class="faq-item">
+                    <button class="faq-question">1. Do I need a custom domain? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0.5rem;">Yes, having a custom domain (e.g., yourbusiness.com) is strongly encouraged. It enhances credibility, improves search visibility, and makes your business look more professional.</p>
+                            <p style="margin-bottom: 0;">Domain registration and setup assistance are available upon request.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 2 -->
+                <div class="faq-item">
+                    <button class="faq-question">2. What happens after the 1-month free hosting? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0.5rem;">All project-based websites include 1 month of free hosting for testing and evaluation.</p>
+                            <p style="margin-bottom: 0;">After this period, you may continue with a hosting plan or migrate the website to your own preferred hosting provider.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 3 -->
+                <div class="faq-item">
+                    <button class="faq-question">3. Do I own the website? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0;">Yes. Once the project is completed and fully paid, you own the website design and files. You may request a copy or migrate it to your own hosting anytime.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 4 -->
+                <div class="faq-item">
+                    <button class="faq-question">4. Can I request changes during or after development? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0.5rem;">Each plan includes revision rounds during development:</p>
+                            <ul style="list-style: none; padding-left: 0; margin-bottom: 1rem;">
+                                <li style="margin-bottom: 0.25rem; display: flex; align-items: flex-start;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Professional Starter Website – 2 rounds of revisions</li>
+                                <li style="margin-bottom: 0; display: flex; align-items: flex-start;"><span style="color: var(--orange); margin-right: 0.5rem;">•</span> Growth-Focused Business – 3 rounds of revisions</li>
+                            </ul>
+                            <p style="margin-bottom: 0;">Minor content updates after launch may be accommodated. Major design changes or additional features may require a separate quotation.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 5 -->
+                <div class="faq-item">
+                    <button class="faq-question">5. How long does it take to complete a website? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0;">Most projects are completed within 1–3 weeks, depending on scope, features, and how quickly content is provided.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 6 -->
+                <div class="faq-item">
+                    <button class="faq-question">6. How do we communicate during the project? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0;">Communication is available daily via Messenger and email, with a typical response time of 6–24 hours. Meetings can be scheduled by appointment.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- FAQ 7 -->
+                <div class="faq-item">
+                    <button class="faq-question">7. Can you migrate the website to my own hosting? <i class="bi bi-chevron-down"></i></button>
+                    <div class="faq-answer">
+                        <div class="faq-answer-inner">
+                            <p style="margin-bottom: 0;">Yes. Migration assistance is available if you choose to transfer the website to your own hosting provider after project completion.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Call To Action / Contact Form Section -->
+    <section id="cta" class="section bg-white">
+        <div class="container">
+            <div class="reveal" style="max-width: 800px; margin: 0 auto; background-color: var(--gray-light); border-radius: var(--radius-md); border: 1px solid var(--gray-border); overflow: hidden; box-shadow: 0 20px 40px -15px rgba(15, 23, 42, 0.05);">
+                
+                <!-- Form Header -->
+                <div style="text-align: center; padding: 4rem 2rem 2rem;">
+                    <h2>Start Your Project <br class="mobile-break" style="display: none;"><span style="color: var(--text-muted); font-size: 1.75rem; font-weight: 600;">(or Request a Quote)</span></h2>
+                    <div style="background-color: rgba(0, 132, 255, 0.08); display: inline-block; padding: 0.75rem 1.5rem; border-radius: 50px; margin-top: 1rem; border: 1px solid rgba(0, 132, 255, 0.2);">
+                        <p style="font-size: 0.95rem; color: var(--navy); margin-bottom: 0; font-weight: 500;">
+                            <i class="bi bi-lightning-charge-fill" style="color: #0084FF; margin-right: 0.25rem;"></i> Prefer instant response? Contact me directly via <strong style="color: #0084FF;">Messenger</strong> for faster replies.
+                        </p>
+                    </div>
+                </div>
+
+                <!-- Form Fields -->
+                <div style="padding: 0 3rem 4rem;">
+                    <!-- Replace YOUR_FORM_ID_HERE with your actual Formspree endpoint URL -->
+                    <form action="https://formspree.io/f/xlgdzzkd" method="POST">
+                        <div class="form-grid">
+                            <div class="form-group">
+                                <label for="fullName">Full Name <span style="color: var(--orange);">*</span></label>
+                                <input type="text" id="fullName" name="fullName" required placeholder="Juan Dela Cruz">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="businessName">Business Name <span style="color: var(--orange);">*</span></label>
+                                <input type="text" id="businessName" name="businessName" required placeholder="Dela Cruz Construction Services">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="email">Email Address <span style="color: var(--orange);">*</span></label>
+                                <input type="email" id="email" name="email" required placeholder="yourname@email.com">
+                            </div>
+                            
+                            <div class="form-group">
+                                <label for="mobile">Mobile Number <span style="color: var(--text-muted); font-weight: 400; font-size: 0.85em;">(optional)</span></label>
+                                <input type="tel" id="mobile" name="mobile" placeholder="09XXXXXXXXX">
+                            </div>
+                        </div>
+
+                        <div class="form-group" style="margin-top: 1.5rem;">
+                            <label for="message">Tell me about your business and website goals <span style="color: var(--orange);">*</span></label>
+                            <textarea id="message" name="message" rows="4" required placeholder="Briefly describe your business and what you want your website to achieve."></textarea>
+                        </div>
+
+                        <!-- Buttons Area -->
+                        <div style="margin-top: 2.5rem; display: flex; flex-direction: column; align-items: center; gap: 1rem; border-top: 1px solid var(--gray-border); padding-top: 2.5rem;">
+                            
+                         
+                            <a href="https://www.facebook.com/hiponia.abraham/" target="_blank" class="btn btn-messenger" style="width: 100%; max-width: 450px; font-size: 1.1rem; padding: 1rem;">
+                                <i class="bi bi-messenger" style="margin-right: 0.75rem; font-size: 1.25rem;"></i> Message via Messenger
+                            </a>
+                            
+                        
+                            <button type="submit" class="btn btn-outline" style="width: 100%; max-width: 450px;">
+                                Submit Inquiry via Email
+                            </button>
+
+                            <!-- Subtext -->
+                            <p style="font-size: 0.85rem; color: var(--text-muted); margin-top: 0.75rem; text-align: center; font-weight: 500;">
+                                <i class="bi bi-clock-history" style="margin-right: 0.25rem;"></i> Typical response time: 6–24 hours via Messenger or Email.
+                            </p>
+                        </div>
+                    </form>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-grid">
+                <div>
+                    <a href="#" class="logo" style="color: var(--white);">Ramindie<span style="color: var(--orange);">.</span></a>
+                    <p style="margin-top: 0.5rem; margin-bottom: 0; font-size: 0.9rem;">Philippine-Based Web Design Studio</p>
+                </div>
+                <div style="text-align: right;">
+                    <p style="margin-bottom: 0; font-size: 0.9rem;">&copy; <span id="year"></span> Ramindie Digital Studio. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JavaScript Interactions -->
+    <script>
+        // Set current year in footer
+        document.getElementById('year').textContent = new Date().getFullYear();
+
+        // Header scroll effect
+        const header = document.getElementById('header');
+        window.addEventListener('scroll', () => {
+            if (window.scrollY > 20) {
+                header.classList.add('scrolled');
+            } else {
+                header.classList.remove('scrolled');
+            }
+        });
+
+        // Mobile Menu Toggle
+        const mobileBtn = document.getElementById('mobile-menu-btn');
+        const navLinks = document.getElementById('nav-links');
+        const mobileCta = document.getElementById('mobile-cta');
+        const menuOverlay = document.getElementById('menu-overlay');
+
+        function toggleMenu() {
+            navLinks.classList.toggle('active');
+            menuOverlay.classList.toggle('active');
+            
+            // Show CTA only inside mobile menu when active
+            if (window.innerWidth <= 768) {
+                mobileCta.style.display = navLinks.classList.contains('active') ? 'inline-flex' : 'none';
+                mobileCta.style.width = '100%';
+                mobileCta.style.marginTop = '1rem';
+            }
+
+            // Change icon & handle background scroll
+            if (navLinks.classList.contains('active')) {
+                mobileBtn.innerHTML = '<i class="bi bi-x-lg"></i>';
+                document.body.style.overflow = 'hidden'; // Lock background scrolling
+            } else {
+                mobileBtn.innerHTML = '<i class="bi bi-list"></i>';
+                document.body.style.overflow = ''; // Restore scrolling
+            }
+        }
+
+        mobileBtn.addEventListener('click', toggleMenu);
+        menuOverlay.addEventListener('click', toggleMenu); // Allow clicking overlay to close
+
+        // Close mobile menu on link click
+        document.querySelectorAll('.nav-links a').forEach(link => {
+            link.addEventListener('click', () => {
+                if(navLinks.classList.contains('active')) {
+                    toggleMenu();
+                }
+            });
+        });
+
+        // Scroll Reveal Animation using Intersection Observer
+        const revealElements = document.querySelectorAll('.reveal');
+        
+        const revealObserver = new IntersectionObserver((entries, observer) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('active');
+                    observer.unobserve(entry.target); // Run animation only once
+                }
+            });
+        }, {
+            root: null,
+            threshold: 0.1, // Trigger earlier
+            rootMargin: "0px 0px -50px 0px"
+        });
+
+        revealElements.forEach(el => revealObserver.observe(el));
+
+        // Smooth scrolling for anchor links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const targetId = this.getAttribute('href');
+                if (targetId === '#') return;
+                
+                const targetElement = document.querySelector(targetId);
+                if (targetElement) {
+                    window.scrollTo({
+                        top: targetElement.offsetTop - 70, // Offset for sticky header
+                        behavior: 'smooth'
+                    });
+                }
+            });
+        });
+
+        // Portfolio Carousel Logic
+        const track = document.getElementById('carouselTrack');
+        const prevBtn = document.getElementById('carouselPrev');
+        const nextBtn = document.getElementById('carouselNext');
+
+        if (track && prevBtn && nextBtn) {
+            // Calculate scroll amount based on card width + gap
+            const getScrollAmount = () => {
+                const cardWidth = track.querySelector('.carousel-card').offsetWidth;
+                const gap = parseFloat(window.getComputedStyle(track).gap) || 24; // 1.5rem gap
+                return cardWidth + gap;
+            };
+
+            prevBtn.addEventListener('click', () => {
+                track.scrollBy({ left: -getScrollAmount(), behavior: 'smooth' });
+            });
+
+            nextBtn.addEventListener('click', () => {
+                track.scrollBy({ left: getScrollAmount(), behavior: 'smooth' });
+            });
+        }
+
+        // FAQ Accordion Logic
+        const faqItems = document.querySelectorAll('.faq-item');
+        
+        faqItems.forEach(item => {
+            const question = item.querySelector('.faq-question');
+            
+            question.addEventListener('click', () => {
+                const isActive = item.classList.contains('active');
+                
+                // Close all other items (optional: keeps UI clean)
+                faqItems.forEach(otherItem => {
+                    otherItem.classList.remove('active');
+                    otherItem.querySelector('.faq-answer').style.maxHeight = null;
+                });
+
+                // Toggle the clicked item
+                if (!isActive) {
+                    item.classList.add('active');
+                    const answer = item.querySelector('.faq-answer');
+                    answer.style.maxHeight = answer.scrollHeight + "px";
+                }
+            });
+        });
+    </script>
+</body>
+</html>
